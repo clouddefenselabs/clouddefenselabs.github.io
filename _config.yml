@@ -47,7 +47,7 @@ defaults:
   #     image_lazy_loader_on: true
 
 ###########################################################
-# Markdown Options (https://jekyllrb.com/docs/configuration/markdown/)
+# Markdown Options (https://jekyllrb.com/docs/configuration/markdown/) .
 # Configuring Jekyll in your GitHub Pages site (https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 ###########################################################
 # This is default for GitHub Pages sites and cannot be changed.
