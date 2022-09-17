@@ -51,13 +51,10 @@ page_data:
       type: id_education
       color: "#F4A273"
     - title: "Resume"
-
-
       type: id_resume
       color: "gray"
 
   list:
-    -
     # Certifications
     - type: id_certifications
       title: "CISSP - ISC(2)"
