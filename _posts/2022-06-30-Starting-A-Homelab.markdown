@@ -59,4 +59,4 @@ Now its time to really start digging in and outlining my lab. Onto the most impo
 
 Pictures below are of my first homelab minus the R720 which came later. Sadly I could not find the photos of the R720. I’ll eventually get photos of the R420/R520 combo up in another post. I custom built the rack from a 2 post 42u rack I cut down myself with a band saw and some time, coupled with what would now be $3,000 in lumber. This was circa 2018.
 
-![My First Homelab](:homelab-2019.jpg){:data-align="center"}
+![My First Homelab](:/2022-06-30/homelab-2019.jpg){:data-align="center"}
