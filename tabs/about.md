@@ -4,7 +4,7 @@ layout: about
 lng_pair: id_about
 
 # image for page specific usage
-img: ":me.png"
+img: ":justin.png"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
@@ -34,7 +34,7 @@ img: ":me.png"
 #published: false
 ---
 
-Hey there! My name is Justin, I create content here on https://www.initcyber.com and plan to expand out in the future to other platforms such as YouTube.
+Hey there! My name is Justin, I create content here on [https://www.initcyber.com](https://www.initcyber.com) and plan to expand out in the future to other platforms such as YouTube.
 <br>
 Here you will find information about myself, my career path, certifications, current projects I am working on, my ups and downs in my homelab/test environment, and much more.
 <br>
