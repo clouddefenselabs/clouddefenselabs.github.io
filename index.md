@@ -4,7 +4,7 @@ layout: home
 lng_pair: id_home
 
 # image for page specific usage
-img: ":home-heading.jpg"
+img: ":Atlanta-Sky.jpg"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
@@ -40,5 +40,8 @@ img: ":home-heading.jpg"
 #
 #{{ website_info_text_second }}
 ---
-
-
+<center>
+##Init Cyber
+###Start with Cybersecurity First
+</center>
+Welcome to my website. This page is currently under _heavy construction_ and constant updates as I transition from a Wordpress CMS to Jekyll with GH Pages.
