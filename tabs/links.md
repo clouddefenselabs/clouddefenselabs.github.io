@@ -40,53 +40,67 @@ lng_pair: id_links
 page_data:
   main:
     header: "Professional Development"
-    info: "This page is dedicated to my Professional Development."
+    info: "This page is dedicated to my Professional Development. I am currently working on this page, please check back later.
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "JekyII / Liquid"
-      type: id_jekyiiliquid
-      color: "gray"
-    - title: "Web Design"
-      type: id_webdesign
-      color: "#F4A273"
-    - title: "Programming"
-      type: id_programming
+    - title: "Certifications"
+      type: id_certifications
       color: "#62b462"
+    - title: "Education/Training"
+      type: id_education
+      color: "#F4A273"
+    - title: "Resume"
+
+
+      type: id_resume
+      color: "gray"
 
   list:
     -
-    # programming
-    - type: id_programming
-      title: "Stack OverFlow"
-      url: "https://stackoverflow.com/"
-      info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
+    # Certifications
+    - type: id_certifications
+      title: "CISSP - ISC(2)"
+      url: "https://www.credly.com/badges/56c43c47-8cc7-41e4-b581-e44138752d00/public_url"
+      info: "You can verify this certification through Credly by clicking on the link to the left - (Credential ID: FNX6Y2MK3BBE15WR)"
+    - type: id_certifications
+      title: "AWS-Certified Solutions Architect"
+      url: "https://www.credly.com/badges/1c73b6ff-c61f-4e4c-b4d0-22a5d413337c/public_url"
+      info: "You can verify this certification through Credly by clicking on the link to the left - (Credential ID: 714277)"
+    - type: id_certifications
+      title: "CompTIA - Security +"
+      url: "https://www.credly.com/badges/52919758-c15b-47cd-8db5-3c8a5905e711/public_url"
+      info: "You can verify this certification through Credly by clicking on the link to the left - (Verification Code: 2WQVW5MPPHREQ6G8)"
+    - type: id_certifications
+      title: "CompTIA - Network +"
+      url: "https://www.credly.com/badges/fc596b26-7964-4089-bccc-0fd04049df04/public_url"
+      info: "You can verify this certification through Credly by clicking on the link to the left - (Verification Code: Y3R9JMJHGCQE18G5)"
+    - type: id_certifications
+      title: "CompTIA - A+"
+      url: "https://www.credly.com/badges/c81f00ae-b8f1-41f2-ab77-cc566900e566/public_url"
+      info: "You can verify this certification through Credly by clicking on the link to the left - (Verification Code: L81GJERNHLE1129P)"  
 
-    # jekyiiliquid
-    - type: id_jekyiiliquid
-      title: "Jekyll"
-      url: "https://jekyllrb.com/"
-      info: "Transform your plain text into static websites and blogs."
-    - type: id_jekyiiliquid
-      title: "Jekyll Cheat Sheet"
-      url: "https://cloudcannon.com/community/jekyll-cheat-sheet/"
-      info: "There are so many Jekyll variables and filters to remember and it can be tricky to keep it all in your head. This cheat sheet serves as a quick reference of everything Jekyll can do."
-    - type: id_jekyiiliquid
-      title: "Liquid for Designers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Designers"
-      info: "Liquid for Designers wiki on GitHub"
-    - type: id_jekyiiliquid
-      title: "Liquid for Programmers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers"
-      info: "Liquid for Programmers wiki on GitHub"
-    - type: id_jekyiiliquid
-      title: "Liquid Reference"
-      url: "https://shopify.dev/api/liquid/"
-      info: "Liquid is a template language created by Shopify and written in Ruby. It is now available as an open source project on GitHub"
+    # education/training
+    - type: id_education
+      title: "Colorado State University - Global Campus"
+      url: "https://csuglobal.edu/"
+      info: "Graduation Year - 2018 - Bachelor of Science Degree - Information Technology/Cyber Security. Relevant Coursework: Information Systems and Security, Network Enterprise Solutions, Intermediate Networking, Basic Programming, Database Management, Digital Forensics and Investigations, Principles of Cyber Security, Ethical Hacking and Penetration Testing, Information Technology Project Management."
+    - type: id_education
+      title: "Florida State University"
+      url: "https://www.fsu.edu/"
+      info: "Graduation Year - 2011 - Bachelor of Science Degree - Criminology."
+    - type: id_education
+      title: "Gulf Coast State College"
+      url: "https://www.gulfcoast.edu/"
+      info: "Graduation Year - 2009 - Associate of Arts Degree - Information Technology/Cyber Security."
 
-    # webdesign
-    - type: id_webdesign
-      title: "W3Schools"
-      url: "https://www.w3schools.com/"
-      info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
+    # resume
+    - type: id_resume
+      title: "Resume"
+      url: "https://initcyber.com/assets/resume.pdf"
+      info: "Here you can find a PDF copy of my resume."    
+    - type: id_resume
+      title: "LinkedIn"
+      url: "https://www.linkedin.com/in/justinjohnson86/"
+      info: "LinkedIn also reflects my professional development throughout my career."
 ---
