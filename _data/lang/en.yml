@@ -165,9 +165,9 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Hello
-  welcome: Welcome
-  sample: Sample
+  greetings: Start with Cybersecurity First!
+  welcome: Init Cyber
+  sample: Avid Cybersecurity Analyst and IT Professional
 
 # for cookie consent
 cookie_consent:
