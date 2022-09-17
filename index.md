@@ -42,7 +42,6 @@ img: ":Atlanta-Sky.jpg"
 ---
 <center>
 <h2> Init Cyber </h2>
-<br>
 <h3> Start with Cybersecurity First</h3>
 </center>
 <br>
