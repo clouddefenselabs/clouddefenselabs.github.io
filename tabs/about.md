@@ -4,7 +4,7 @@ layout: about
 lng_pair: id_about
 
 # image for page specific usage
-img: ":about.jpg"
+img: ":me.jpg"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
@@ -34,9 +34,10 @@ img: ":about.jpg"
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
-
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
-
-{{ website_info_text_second }}
+Hey there! My name is Justin, I create content here on https://www.initcyber.com and plan to expand out in the future to other platforms such as YouTube.
+<br>
+Here you will find information about myself, my career path, certifications, current projects I am working on, my ups and downs in my homelab/test environment, and much more.
+<br>
+By all means, I am a professional but by no means perfect. If you see anything that needs my attention, please open an issue on my github page [here](https://github.com/initcyber/initcyber.github.io) or feel free to shoot me an [e-mail](mailto:justin@initcyber.com). I am always open for suggestions and learning.
+<br>
+Thank you for visiting my site!
