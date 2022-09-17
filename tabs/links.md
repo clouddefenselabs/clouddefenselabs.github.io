@@ -65,11 +65,11 @@ page_data:
       url: "https://www.credly.com/badges/1c73b6ff-c61f-4e4c-b4d0-22a5d413337c/public_url"
       info: "You can verify this certification through Credly by clicking on the link to the left - (Credential ID: 714277)"
     - type: id_certifications
-      title: "CompTIA - Security +"
+      title: "CompTIA - Security+"
       url: "https://www.credly.com/badges/52919758-c15b-47cd-8db5-3c8a5905e711/public_url"
       info: "You can verify this certification through Credly by clicking on the link to the left - (Verification Code: 2WQVW5MPPHREQ6G8)"
     - type: id_certifications
-      title: "CompTIA - Network +"
+      title: "CompTIA - Network+"
       url: "https://www.credly.com/badges/fc596b26-7964-4089-bccc-0fd04049df04/public_url"
       info: "You can verify this certification through Credly by clicking on the link to the left - (Verification Code: Y3R9JMJHGCQE18G5)"
     - type: id_certifications
