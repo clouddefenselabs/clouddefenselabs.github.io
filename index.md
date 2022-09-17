@@ -41,7 +41,7 @@ img: ":Atlanta-Sky.jpg"
 #{{ website_info_text_second }}
 ---
 <center>
-<h3>_"Start with Cybersecurity First"_</h3>
+<h3>"Start with Cybersecurity First"</h3>
 </center>
 <br>
 Welcome to my website. This page is currently under _heavy construction_ and constant updates as I transition from a Wordpress CMS to Jekyll with GH Pages.
