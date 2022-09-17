@@ -39,8 +39,8 @@ lng_pair: id_links
 ###########################################################
 page_data:
   main:
-    header: "Links"
-    info: "Your Links page description."
+    header: "Professional Development"
+    info: "This page is dedicated to my Professional Development."
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
