@@ -11,7 +11,7 @@ category: homelab
 # multiple tag entries are possible
 tags: [cybersecurity, homelab]
 # thumbnail image for post
-img: ":homelab-2019.jpg"
+img: ":/2022-06-30/homelab-2019.jpg"
 # disable comments on this page
 comments_disable: true
 
