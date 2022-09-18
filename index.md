@@ -41,7 +41,7 @@ img: ":Atlanta-Sky.jpg"
 #{{ website_info_text_second }}
 ---
 {:data-align="center"}
-### Init Cyber - "Start with Cybersecurity First"
+### Init Cyber - 'Start with Cybersecurity First'
 
 
 {:data-align="left"}
