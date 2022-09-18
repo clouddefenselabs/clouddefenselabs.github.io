@@ -47,12 +47,30 @@ So to start, I am going to install Splunk on its own dedicated RHEL 8 virtual ma
 
 ![ESXI Setup Screen](:/{{page.imgdate}}/2.png){:data-align="center"}
 
-When you click into each vulnerability you get detailed information regarding them, including the fix:
+Now why I choose RHEL 8 instead of Ubuntu or Debian? Quite honestly I wanted to stick to as close to DOD used Operating Systems for my current role (which, if you are currently working in your Cybersecurity/IT role, your homelab should closely mimic technologies you are working with/exposed to as well!). I also have a RHEL Developer License that has several RHEL keys I’ve been meaning to use up.
 
-![You can either click on the “see also” link, or look up the solution on your favorite search engine](:/2022-07-01/3.png){:data-align="center"}
+Splunk has a [Reference Hardware](https://docs.splunk.com/Documentation/Splunk/latest/Capacity/Referencehardware) page that outlines “recommended” hardware they have tested for various environments, however for a HOMELAB, realistically we aren’t going to be able to spare this many cores (yet… One day I will get to this point), so for now I’m going to give this VM 4 cores and 12GB of ram. Also I will add that in a normal “Enterprise” environment, you would have a Search Head or two, a few Indexers, along with your forwarders, however in this environment I will have everything combined into one machine as I do not have a massive environment to collect log files from (yet). Also I’ve already signed up for a Splunk Developer License which gave me 6 months to test (with the option to renew within 10 days of the license expiring) plus bumps my log aggregation from 500MB to 10GB)
 
-Just ensure that when you set up your vulnerability scanner, that you are getting good credentialed scans (for Tenable/Nessus/ACAS look at plugin 19506), otherwise you will receive incomplete results. The vulnerability scanners need to have credentialed and elevated privileges in order to understand the contents of each systems patch level, security posture, network settings, etc., (think of what an intruder/hacker would see if they got in) in order to tell you what to remediate/fix.
+![ESXI VM Creation Screen](:/{{page.imgdate}}/3.png){:data-align="center"}
 
-![Bad Scan Here. Credentialed Checks : no on the bottom line. Plugin 19506 and several other informational plugins tell you a story about your system you are scanning.](:/2022-07-01/4.png){:data-align="center"}
+Then I’ll start the VM up and install RHEL as required, and install my RHEL License:
 
-Not only will this help you keep a better security posture for your network and internal infrastructure, in the future if you decide to step into the world of Information Technology/Cybersecurity this can be used as experience. In previous interviews, I’ve impressed recruiters/hiring managers by telling them “I run a #homelab with a vulnerability scanner in the middle scanning all of my network devices on a weekly basis”. That opens the door to further conversations where I can deep dive into what I’ve done and my experience in how I use this to ensure my network, devices, and computers are safe.
+![Normally I would select “Server without GUI”, however, I plan on accessing Splunk only on my RHEL Machine after I install it (remoting in from ESXi), so I am installing a GUI to have access to it.](:/{{page.imgdate}}/4.png){:data-align="center"}
+
+Once all set up, I went to Splunks website and downloaded the appropriate RPM Package
+
+![Snippet from Splunks Website July 2022](:/{{page.imgdate}}/5.png){:data-align="center"}
+
+Then off to the Terminal to install Splunk
+
+![Terminal Installation](:/{{page.imgdate}}/6.png){:data-align="center"}
+
+![Terminal Installation](:/{{page.imgdate}}/7.png){:data-align="center"}
+
+Installation instructions can also be found [here](https://docs.splunk.com/Documentation/SplunkCloud/latest/SearchTutorial/StartSplunk) (for starting the web server)
+
+And if all goes well, you should be able to go to http://localhost:8000
+
+![Splunk Login Screen - Log in using the credentials you set up during the install.](:/{{page.imgdate}}/8.png){:data-align="center"}
+
+Part two will be posted tomorrow where I continue setting up Splunk Enterprise
