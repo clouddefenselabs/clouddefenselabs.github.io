@@ -7,9 +7,9 @@ title: "Terraform (Part 1 - Setting up a cloud-init VM)"
 # if not specified, .name will be used from _data/owner/[language].yml
 #author: ""
 # multiple category is not supported
-category: Hypervisors
+category: Terraform
 # multiple tag entries are possible
-tags: [proxmox, hypervisors, linux, homelab]
+tags: [IAC, Code, homelab]
 # thumbnail image for post
 img: ":/2022-07-17/feat-1.png"
 # disable comments on this page
