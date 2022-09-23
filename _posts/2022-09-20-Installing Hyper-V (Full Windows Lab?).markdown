@@ -39,7 +39,7 @@ imgdate: 2022-09-20
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-So after the past few weeks of playing around with VMWare/ESXi in my homelab, and the spotty power here due to the weather (I really need to get Battery Backups), coupled with having to rebuild vCenter a handful of times due to the corruption after a power failure (unsure why), I've decided to take my hand at Hyper-V. Furthermore, I'm starting to dig into AZ-800 - Administering Windows Server Hybrid Core, AZ-801 - Configuring Windows Server Hybrid Advanced Services and AZ-900 - Microsoft Azure Fundamentals in order to get my feat wet in the Azure world.
+So after the past few weeks of playing around with VMWare/ESXi in my homelab, and the spotty power here due to the weather (I really need to get Battery Backups), coupled with having to rebuild vCenter a handful of times due to the corruption after a power failure (unsure why), I've decided to take my hand at Hyper-V. Furthermore, I'm starting to dig into AZ-800 - Administering Windows Server Hybrid Core, AZ-801 - Configuring Windows Server Hybrid Advanced Services and AZ-900 - Microsoft Azure Fundamentals in order to get my feat wet in the Azure world...
 
 Another catalyst in my decision to drop VMWare came from a few recent Reddit and LinkedIn Posts where employees (read: Talent) are leaving VMWare in droves and going to AWS and Microsoft, which is telling me that the Broadcom purchase is sending employees out the door quicker than expected. 
 
