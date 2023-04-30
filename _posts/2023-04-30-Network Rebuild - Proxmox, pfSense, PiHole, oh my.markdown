@@ -39,14 +39,17 @@ imgdate: 2023-04-30
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-Rebuilding the Homelab time, and what better way than to start at your firewall. I've read many reviews on Reddit and other forums about how firewalls/routers should be "Hardware" only, but yet, when it comes to cloud infrastructures, we aren't running our virtual firewalls/routers on hardware only (Hello McFly!). Besides, what is better than one form of backup when you can have two forms (I'll explain this later.)
+### Preface:
+Rebuilding the Homelab time, and what better way than to start at your firewall/router. Earlier this week a series of events led me down to this path, one of which was the router/firewall dying, then it snowballed into other matters. I've read many reviews on Reddit and other forums about how firewalls/routers should be "Hardware" only, but yet, when it comes to cloud infrastructures, we aren't running our virtual firewalls/routers on hardware only (Hello McFly!). Besides, what is better than one form of backup when you can have two forms (I'll explain this later.)
 
 ### What was I running before?
-Before, on my trusty Dell Optiplex 3020, I was running pfSense on dedicated hardware, and running weekly backups of my config/xml onto my NAS storage device (with hopes that it would do what it is designed to do, and back up to SnapRaid, and then back any critical files to a USB drive, then I physically change those out monthly and carry it offsite to another place which I hope doesn't burn down...). This piece of hardware was running what I assumed to be 8GB of RAM (I had it installed) an i3-4300 processor, a broadcom server-grade 4 port gigabit adapter, and purred along nicely. I logged in one day and found that (my overkill) 8GB of RAM was only detecting 4GB, and after I did further research, realized that this was due to pins 5 and 6 on the 4 port gigabit adapter (being server grade) causing weird SMBus issues with Haswell processor boards (cheap Optiplex boards) and a hack needed to be done. The solution? Electrical tape... I did not get a photo of this but I taped off pins 5 and 6, which worked and I saw 8GB come back (very nice). 
+Before, on my trusty Dell Optiplex 3020, I was running pfSense on "dedicated hardware" (Baremetal), and running weekly backups of my config/xml onto my NAS storage device (with hopes that it would do what it is designed to do, and back up to SnapRaid, and then back any critical files to a USB drive, then I physically change those out monthly and carry it offsite to another place which I hope doesn't burn down...). This piece of hardware was running what I assumed to be 8GB of RAM (I had it installed) an i3-4300 processor, a broadcom server-grade 4 port gigabit adapter, and purred along nicely. 
 
-But pfSense doesn't need 8GB, thats overkill...
+When I rebuilt my router the other day I realized that my 8GB was really not even reporting 8GB...  This was due to pins 5 and 6 on the 4 port gigabit adapter (being server grade) causing weird SMBus issues with Haswell processor boards (cheap Optiplex boards) and a hack needed to be done. (Here starts the snowball effect) The solution? Electrical tape... I did not get a photo of this but I taped off pins 5 and 6, which worked and I saw 8GB come back (very nice). 
 
-So what do Homelab tinkerer's do? We have to over-engineer things and have them do more than they really should do
+But pfSense doesn't need 8GB, thats overkill you say?... Why yes, yes it is...
+
+So what do Homelab tinkerer's do? We have to over-engineer things and have them do more than they really should do...
 
 ### Enter Proxmox
 So it's time to virtualize pfSense. Why? Because I can, and because while theres a lot of love for pfBlockerNG, which I used for a while, I want PiHole. It (to me) offers more granualarity in a more user-friendly dashboard for my devices on my network and I want something that works better (imo, don't shoot me). I wanted something I can set up groups on for different clients, for different blocklists, and have nice graphs to go along with it. I also wanted a solution to have PiHole and pfSense on the same box.
