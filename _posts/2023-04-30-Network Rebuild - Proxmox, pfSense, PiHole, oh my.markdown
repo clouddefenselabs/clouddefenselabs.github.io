@@ -11,7 +11,7 @@ category: Network
 # multiple tag entries are possible
 tags: [Network, Firewall, Hypervisor]
 # thumbnail image for post
-img: ":/2022-09-20/feat-1.png"
+img: ":/2023-04-30/feat-1.png"
 # disable comments on this page
 comments_disable: true
 
@@ -140,3 +140,7 @@ I had a spare USB drive sitting around that was doing nothing but collecting dus
 You can also schedule/automate these backups (and read all about them [here](https://pve.proxmox.com/wiki/Backup_and_Restore)).
 
 The beauty about these backups is that if and when this ever goes down, I can immediately respin up Proxmox in a new machine and reload from backup, remap my network devices and I'm back up and running again. I can also back up my pfSense configuration for redundancy.
+
+And here is a cheap diagram of how this is set up
+
+![Cheap Diagram](:/{{page.imgdate}}/7.png){:data-align="center"}
