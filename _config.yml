@@ -120,3 +120,5 @@ sass:
 # Exclude these files or folders from production site
 ###########################################################
 exclude: ["Gemfile*", "README*", "LICENSE", "docs"]
+
+future: false
