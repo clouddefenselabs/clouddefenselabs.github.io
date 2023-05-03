@@ -42,6 +42,8 @@ imgdate: 2023-05-02
 ### Preface:
 For those who utilize ESXI/vSphere and want to install pfSense and PiHole, it's not nearly as straight forward as the Proxmox install, however it may make more sense and be better for your environment depending on what is set up currently in your lab.
 
+![Tailscale Icon - Courtesy of Tailscale.com](:/{{page.imgdate}}/1.jpg){:data-align="center"}
+
 
 ### ESXI Install
 Install ESXI as normal, starting in ESXI version 7 you can denote how big of an install disk you want to set. I typically always set the bare minimum using
