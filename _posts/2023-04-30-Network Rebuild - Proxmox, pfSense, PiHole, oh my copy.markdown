@@ -111,7 +111,7 @@ curl -sSL https://install.pi-hole.net | bash
 
 You'll be presented with some pre-flight checks, and it's going to ask for your upstream DNS providers. I chose to use my pfSense Firewall IP Address (10.10.0.1) since it's up and running already and it's part of the setup anyhow to forward to Cloudflare. 
 
-Next it'll ask to prelod some blocklist, go ahead and accept them, and accept defaults for the remainder of the setup. Your next step is to log into the PiHole interface with the password that it presents on the last screen. If you want to change your password, use:
+Next it'll ask to preload some blocklist, go ahead and accept them, and accept defaults for the remainder of the setup. Your next step is to log into the PiHole interface with the password that it presents on the last screen. If you want to change your password, use:
 
 ```bash
 pihole -a -p
@@ -127,9 +127,9 @@ In Settings -> DNS: Under "Potentially Dangerous Options": Select "Respond only 
 In the same screen just below it, uncheck "Never forward non-FQDN A and AAAA queries" and "Never forward reverse lookups for private IP ranges". These settings help with DNS Names between PiHole and pfSense (so you can track hosts in PiHole)
 ![Other Settings](:/{{page.imgdate}}/5.png){:data-align="center"}
 
-Now onto pfSense Settings:
+#### Now onto pfSense Settings:
 
-If you are using pfSense for DHCP, set each VLAN up (that you want to use) to use the new PiHole DNS Server. I also disabled pfBlockerNG, and unchecked the setting to "save" all of the settings when reinstalling/uninstalling the application for pfBlockerNG.
+If you are using pfSense for DHCP, set each VLAN up (that you want to use) to use the new PiHole DNS Server (DHCP Settings - Under the DNS Fields enter your IP Address for your PiHole here). I also disabled pfBlockerNG, and unchecked the setting to "save" all of the settings when reinstalling/uninstalling the application for pfBlockerNG.
 
 You may need to reboot everything (including endpoints, unless you flushDNS records / release/renew IP addresses) to get it all to work. If successful you should start getting responses within your PiHole interface, and now have an all in one DNS/Firewall box, where you can take Snapshots in Proxmox, backup configurations, etc.
 
