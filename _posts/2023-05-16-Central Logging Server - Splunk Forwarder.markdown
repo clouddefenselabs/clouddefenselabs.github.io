@@ -89,20 +89,6 @@ input(type="imtcp" port="514")
 ```
 ![rSyslog conf settings - UDP and TCP Inputs](:/{{page.imgdate}}/5.png){:data-align="center"}
 
-Add the file permissions for the logs:
-
-```bash
-#
-# Set the default permissions for all log files.
-#
-$FileOwner splunk
-$FileGroup splunk
-$FileCreateMode 0644
-$DirCreateMode 0755
-$Umask 0022
-#$PrivDropToUser splunk
-#$PrivDropToUser splunk
-```
 
 Then we need to add our rules for accepting inputs for our remote devices:
 
