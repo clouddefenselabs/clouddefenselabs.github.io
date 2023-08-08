@@ -50,8 +50,9 @@ Starting at the top left of the photo is the old NAS, however I <s>borrowed</s> 
 The Lenovo Thinkcenter is a M710Q and serves as my OPNSense box. It comes with an I3-7300 and 8GB of DDR-4 RAM, as well as 128GB SSD for storage/OS. I added an additional NIC via the A+E Key'd PCIE slot and used the VGA port in the back (removed the VGA port and installed the ethernet port).
 
 ![VCenter Server](:/{{page.imgdate}}/2.png){:data-align="center"}
-
+Vcenter Server Specs
 ![Each node](:/{{page.imgdate}}/3.png){:data-align="center"}
+Node Specs
 
 To top all of this off, each node has a 1TB NVMe drive (Datastore), 128GB NVMe (boot and 'some' VM's if needed) and a 500GB HDD (except Node 1, which contains a 1TB HDD). 
 
