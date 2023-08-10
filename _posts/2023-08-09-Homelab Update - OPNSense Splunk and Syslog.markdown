@@ -159,7 +159,7 @@ If all goes well, you will have data in splunk. From here follow the guides for 
 [OPNsense Guide - The rest of the steps](https://splunk-opnsense.ztsplunker.com/getting-started/configure/configure-macros/)
 
 #### Log Rotate (Optional - See Note)
-The builtin package of logrotate is an amazing feature which can be used to "dump" log files after a certain period of time and can be easily set up by modifying the default configuration file at /etc/logrotate.conf $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ and creating a new logrotate file:
+The builtin package of logrotate is an amazing feature which can be used to "dump" log files after a certain period of time and can be easily set up by modifying the default configuration file at /etc/logrotate.conf and creating a new logrotate file:
 
 ```bash
 $nano /etc/logrotate.d/opnsense
@@ -184,6 +184,8 @@ $nano /etc/logrotate.d/opnsense
   endscript
 }
 ```
+Redhat.com explains this in more detail:
+[Setting up logrotate in Linix](https://www.redhat.com/sysadmin/setting-logrotate)
 
 However, Splunk also has an add-on (app) that can also auto-delete log files retrieved from a syslog server found here:
 
