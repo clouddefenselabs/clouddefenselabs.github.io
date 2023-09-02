@@ -48,8 +48,4 @@ img: ":Atlanta-Sky.jpg"
 
 Welcome to my website. This page is currently under _heavy construction_ and constant updates..
 
-Update as of September 1, 2023. I am currently updating from a name change of InitCyber to Cloud Defense Labs. Please excuse the mess as I am busy
-
-renaming everything on this website, updating recent certificationss I am obtaining (Microsoft Cloud Certifications), developing a true hybrid Cloud/on-prem
-
-environment, and eventually diverting to a multi-cloud environment. Stay tuned!
+Update as of September 1, 2023. I am currently updating from a name change of InitCyber to Cloud Defense Labs. Please excuse the mess as I am busy renaming everything on this website, updating recent certificationss I am obtaining (Microsoft Cloud Certifications), developing a true hybrid Cloud/on-prem environment, and eventually diverting to a multi-cloud environment. Stay tuned!
