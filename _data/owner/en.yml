@@ -42,14 +42,14 @@ creative_commons:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: "Init Cyber by Justin Johnson - Located in Atlanta, Georgia."
+meta_common_description: "Cloud Defense Labs by Justin Johnson - Located in Atlanta, Georgia."
 
 # contact options (side nav bottom and about page)
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  - github: "https://github.com/initcyber"
-  - email: "justin@initcyber.com"
+  - github: "clouddefenselabs"
+  - email: "admin@clouddefenselabs.com"
   - linkedin: "https://www.linkedin.com/in/justinjohnson86/"
   #- twitter: ""
   #- instagram: ""
