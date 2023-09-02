@@ -128,7 +128,7 @@ post-list:
 
 # for home layout
 home:
-  title: Init Cyber
+  title: Cloud Defense Labs
   button_name: Home
   new_posts_title: New Articles
   new_posts_show_more_button: View More ...
@@ -165,8 +165,8 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Start with Cybersecurity First!
-  welcome: Init Cyber
+  greetings: Cybersecurity Starts with Identity
+  welcome: Cloud Defense Labs
   sample: Avid Cybersecurity Analyst and IT Professional
 
 # for cookie consent

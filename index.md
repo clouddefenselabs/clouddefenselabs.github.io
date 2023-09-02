@@ -41,7 +41,7 @@ img: ":Atlanta-Sky.jpg"
 #{{ website_info_text_second }}
 ---
 {:data-align="center"}
-### Cloud Defense Labs - Cybersecurity Starting with Identity'
+### Cloud Defense Labs - Cybersecurity Starting with Identity
 
 
 {:data-align="left"}
