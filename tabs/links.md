@@ -61,6 +61,18 @@ page_data:
       url: "https://www.credly.com/badges/56c43c47-8cc7-41e4-b581-e44138752d00/public_url"
       info: "You can verify this certification through Credly by clicking on the link to the left - (Credential ID: FNX6Y2MK3BBE15WR)"
     - type: id_certifications
+      title: "Microsoft 365 Certified: Fundamentals"
+      url: "https://learn.microsoft.com/en-us/users/justinjohnson-6217/credentials/51dad6173be23df3"
+      info: "You can verify this certification through Microsoft by clicking on the link to the left - (Credential ID: 51DAD6173BE23DF3)"
+    - type: id_certifications
+      title: "Microsoft Certified: Azure Fundamentals"
+      url: "https://learn.microsoft.com/en-us/users/justinjohnson-6217/credentials/2bf1e597e0470c46"
+      info: "You can verify this certification through Microsoft by clicking on the link to the left - (Credential ID: 2BF1E597E0470C46)"
+    - type: id_certifications
+      title: "Microsoft Certified: Security, Compliance, and Identity Fundamentals"
+      url: "https://learn.microsoft.com/en-us/users/JustinJohnson-6217/credentials/6E02CD2C4C51E009"
+      info: "You can verify this certification through Microsoft by clicking on the link to the left - (Credential ID: 6E02CD2C4C51E009)"
+    - type: id_certifications
       title: "AWS-Certified Solutions Architect"
       url: "https://www.credly.com/badges/1c73b6ff-c61f-4e4c-b4d0-22a5d413337c/public_url"
       info: "You can verify this certification through Credly by clicking on the link to the left - (Credential ID: 714277)"
@@ -94,7 +106,7 @@ page_data:
     # resume
     - type: id_resume
       title: "Resume"
-      url: "https://initcyber.com/assets/resume.pdf"
+      url: "https://www.clouddefenselabs.com/assets/resume.pdf"
       info: "Here you can find a PDF copy of my resume."    
     - type: id_resume
       title: "LinkedIn"

@@ -34,12 +34,12 @@ img: ":justin.png"
 #published: false
 ---
 
-Hey there! My name is Justin, I create content here on [https://www.initcyber.com](https://www.initcyber.com) and plan to expand out in the future to other platforms such as YouTube.
+Hey there! My name is Justin, I create content here on [https://www.clouddefenselabs.com](https://www.clouddefenselabs.com) and plan to expand out in the future to other platforms such as YouTube.
 
 Here you will find information about myself, my career path, certifications, current projects I am working on, my ups and downs in my homelab/test environment, and much more.
 
-By all means, I am a professional but by no means perfect. If you see anything that needs my attention, please open an issue on my github page [here](https://github.com/initcyber/initcyber.github.io) or feel free to shoot me an [e-mail](mailto:justin@initcyber.com). I am always open for suggestions and learning.
+By all means, I am a professional but by no means perfect. If you see anything that needs my attention, please open an issue on my github page [here](https://github.com/clouddefenselabs/clouddefenselabs.github.io) or feel free to shoot me an [e-mail](mailto:admin@clouddefenselabs.com). I am always open for suggestions and learning.
 
-Information on my professional development can be found [here](https://www.initcyber.com/tabs/links.html). This page outlines my certifications and has a copy of my resume.
+Information on my professional development can be found [here](https://www.clouddefenselabs.com/tabs/links.html). This page outlines my certifications and has a copy of my resume.
 
 Thank you for visiting my site!
