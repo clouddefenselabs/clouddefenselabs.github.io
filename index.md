@@ -41,7 +41,7 @@ img: ":cloud-defense.jpg"
 #{{ website_info_text_second }}
 ---
 {:data-align="center"}
-### Cloud Defense Labs - Cybersecurity Starting with Identity
+### Cloud Defense Labs - _Identity is the new perimeter_
 
 
 {:data-align="left"}
