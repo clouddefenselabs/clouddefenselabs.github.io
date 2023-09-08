@@ -41,8 +41,9 @@ img: ":CDBanner.jpg"
 #{{ website_info_text_second }}
 ---
 {:data-align="center"}
-### Cloud Defense Labs
-## _Identity is the new perimeter_
+## Cloud Defense Labs
+{:data-align="center"}
+### _Identity is the new perimeter_
 
 
 {:data-align="left"}
