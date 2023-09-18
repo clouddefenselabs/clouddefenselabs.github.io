@@ -3,7 +3,7 @@
 ###########################################################
 # if you want to force HTTPS, specify the domain without the http at the start
 # set domain: "your_github_user_name.github.io"
-domain: ""
+domain: "www.initcyber.com"
 
 # your web site url
 # for GitHub Pages, url: "https://your_github_user_name.github.io"
@@ -15,7 +15,7 @@ baseurl: ""
 
 # please use TZ database name column on the list table
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-#timezone: "America/New_York"
+timezone: "America/New_York"
 
 ###########################################################
 # Front Matter Defaults (https://jekyllrb.com/docs/configuration/front-matter-defaults/)
